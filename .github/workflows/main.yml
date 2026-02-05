@@ -6,7 +6,7 @@ name: Build
 jobs:
   make:
     name: Build and Upload Sileo
-    runs-on: macos-12
+    runs-on: macos-latest
     steps:
 
       - name: Checkout
